@@ -1,0 +1,45 @@
+
+/*--slideshow--*/
+
+.image-banner {
+    position: relative;
+    margin-left: 12.5%;
+    z-index: 10;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.image-banner img{
+    display:block;
+    margin-left: 20%;
+}
+
+.cycle-slideshow{
+    margin-bottom:30px;
+    width: 100%;
+    padding-bottom: 30xp;
+    box-sizing: border-box;
+}
+
+.slide{
+    width: 70%;
+    position: relative;
+    margin-bottom: 30px;
+    box-sizing:border-box;
+}
+
+.cycle-next, .cycle-prev{
+    position:absolute;
+    width: 7%;
+    top:10%;
+    background-color: coral;
+    color:beige;
+    padding:1px 10px;
+    display: block;
+    cursor:pointer;
+    font-size: 130%;
+    z-index: 1000;
+    opacity: 0;
+    transition:opacity .5s;
+}
